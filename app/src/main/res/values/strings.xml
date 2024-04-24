@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Car Inspection</string>
+
+    <!-- Navigation -->
+    <string name="Home">Home</string>
+    <string name="Inspection">Inspection</string>
+    <string name="Camera">Camera</string>
+    <string name="Notes">Notes</string>
+    <string name="Setting">Setting</string>
+
+    <!-- Home Navigation -->
+    <string name="driver_details">Driver</string>
+    <string name="vehicle_details">Vehicle</string>
+    <string name="trailer_details">Trailer</string>
+    <string name="doc_details">Doc</string>
+    <string name="vehicle_info">Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_input">User Input</string>
+    <string name="inspect_month">Inspect Month</string>
+    <string name="inspect_date">Inspect Date</string>
+    <string name="vehicle_type">Vehicle Type</string>
+    <string name="vehicle_subtype">Vehicle Subtype</string>
+    <string name="vehicle_details_text">Vehicle Details</string>
+    <string name="current_odometer">Current Odometer</string>
+    <string name="inspection_location">Inspection Location</string>
+    <string name="inspector">Inspector</string>
+    <string name="submit">Submit</string>
+    <string name="save_driver">Save Driver</string>
+    <string name="cancel">Cancel</string>
+    <string name="v_driver">V Driver</string>
+    <string name="driver_license_number">Driver Licence Number</string>
+    <string name="address">Address</string>
+    <string name="v_trailer">V Trailer</string>
+    <string name="v_type">V Type</string>
+    <string name="v_subtype">V Subtype</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="remarks">Remarks</string>
+    <string name="title">Title</string>
+    <string name="section">Section</string>
+    <string name="configuration">Config</string>
+    <string name="logs_and_submission">Logs and Submission</string>
+    <string name="email">\@Email</string>
+    <string name="erase">Erase</string>
+    <string name="submission">Submission</string>
+    <string name="log_file">Log File</string>
+    <string name="v_plate">V Plate</string>
+    <string name="enter_your_v_plate">Enter your V Plate</string>
+    <string name="add_new_date_and_picture">Add new Date and Picture</string>
+    <string name="done">Done</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="upload_from_photo_library">Upload from Photo Library</string>
+    <string name="other_info">Other Info</string>
+    <string name="search">Search...</string>
+    <string name="driver_signature">Driver Signature</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="inspector_signature">Inspector Signature</string>
+    <string name="inspector_name">Inspector Name</string>
+    <string name="logs">Logs</string>
+    <string name="submissions">Submissions</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="licence_date">Licence Date</string>
+    <string name="hatzharatnahag_date">HatzharatNahag Date</string>
+    <string name="homas_date">Homas Date</string>
+    <string name="manof_date">Manof Date</string>
+    <string name="is_kavua">Is Kavua</string>
+    <string name="enter_root_url_of_api">Enter root url of API</string>
+    <string name="api_root">API Root</string>
+    <string name="inspect_valid_until">Inspect valid until</string>
+    <string name="vehicle_make">Vehicle Make</string>
+    <string name="alert">Alert</string>
+    <string name="are_you_sure_you_want_to_cancel">Are you sure you want to cancel?</string>
+    <string name="expired_document">Expired document:</string>
+    <string name="missing_document">Missing document:</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="driver">Driver</string>
+    <string name="truck">Truck</string>
+    <string name="trailer">Trailer</string>
+    <string name="inspection_id">ID</string>
+    <string name="inspection_month">Month</string>
+    <string name="inspection_type">Type</string>
+    <string name="trailer_check_desc">SEND TRAILER INSPECTION</string>
+    <string name="required_date_field">Required the date field</string>
+    <string name="required_location_field">Required the location field</string>
+    <string name="required_odometer_field">Required the odometer field</string>
+    <string name="enter_another_vehicle_number">There is a submission for the vehicle number to do submit Please enter another one.</string>
+    <string name="driver_id">Driver id*</string>
+    <string name="license_number">License number*</string>
+    <string name="name">Name*</string>
+    <string name="license_type">License type*</string>
+    <string name="reset">Reset</string>
+    <string name="resend">Resend</string>
+    <string name="clear">Clear</string>
+    <string name="send">Send</string>
+    <string name="desc">Description</string>
+    <string name="create_new_driver">Create New Driver</string>
+    <string name="id">ID</string>
+    <string name="month">Month</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="error_detail">Error Detail</string>
+    <string name="error">Error!</string>
+    <string name="num_try">Num Try</string>
+    <string name="notes">Notes</string>
+    <string name="started_at">Started At</string>
+    <string name="ended_at">Ended At</string>
+
+    <string name="delete">Delete</string>
+    <string name="yes">Yes</string>
+    <string name="confirm">Confirm</string>
+    <string name="success">Success</string>
+    <string name="success_submit">Successfully submitted.</string>
+    <string name="success_saved">Successfully saved.</string>
+    <string name="success_reverted">Successfully reverted.</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="are_you_sure_delete">Are you sure to delete it?</string>
+    <string name="are_you_sure">Are you sure ?</string>
+
+    <string name="signatures">"\n"אם אבצע טיפולים תקופתיים, תיקון ליקויים או תיקונים אחרים לכלי הרכב, איידע
+\nאת קצין הבטיחות על כך ואמציא לו חשבוניות תיקון המאשרות כי כלי הרכב טופל
+במוסך שניתן לו רישיון לפי סעיף 127 לחוק רישוי שירותים ומקצועות בענף הרכב,n\
+התשע"ו 2016- .
+</string>
+</resources>

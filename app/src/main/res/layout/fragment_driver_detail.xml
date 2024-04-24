@@ -1,0 +1,233 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coretal.carinspection.fragments.DriverDetailFragment"
+    android:textDirection="locale"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/v_driver"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/driver_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@xml/spinner_bg"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/driver_license_number"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/licence_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/licence_date"
+                    android:textSize="18sp" />
+
+                <com.coretal.carinspection.controls.DateEditText
+                    android:id="@+id/edit_licence_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:drawableEnd="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hatzharatnahag_date"
+                    android:textSize="18sp" />
+
+                <com.coretal.carinspection.controls.DateEditText
+                    android:id="@+id/edit_hatzharatnahag_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:drawableEnd="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homas_date"
+                    android:textSize="18sp" />
+
+                <com.coretal.carinspection.controls.DateEditText
+                    android:id="@+id/edit_homas_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:drawableEnd="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manof_date"
+                    android:textSize="18sp" />
+
+                <com.coretal.carinspection.controls.DateEditText
+                    android:id="@+id/edit_manof_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:drawableEnd="@android:drawable/ic_menu_my_calendar" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/switch_is_kavua"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/is_kavua"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remarks"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/remarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/lightGray"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/driver_fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="512dp"
+                android:background="@color/lightGray">
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
